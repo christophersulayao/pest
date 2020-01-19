@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #39d52d;
+}
+
+a:hover {
+    cursor: pointer;
+    color: coral;
+}
+
+
+/* #main-section {
+    background: rgb(95, 94, 94);
+} */
+
+.img {
+    height: 200px;
+    width:200px;
+}
+
+.container {
+    padding: 1rem;
+}
+
+/* #title {
+    background: #f4f4f4;
+} */
+
+#title h1 {
+    text-align: center;
+    color: #39d52d;
+}
+
+.chem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.chem-container h3 {
+    padding: 1rem;
+}
+
+#main-section .chem-container .chem-content {
+    background: #f4f4f4;
+    border: #39d52d 1px solid;
+    border-radius: 5px;
+    margin: .75rem;
+    padding: .75rem;
+}
+
+
+
