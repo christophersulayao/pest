@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#chemical-information {
+    text-align: center;
+    padding: 1rem;
+}
+
+#chemical-information span {
+    color: #ff0000;
+}
+
+#chemical-information h1 {
+    margin: 1rem 0;
+}
+
+#target-pest {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#target-pest h3, p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#target-pest .pest-container .pest-content h3 i {
+    color: #39d52d;
+}    
+
+#target-pest  p {
+    padding: 1rem;
+}
+
+#target-pest .pest-container .pest-content h3 i {
+    color: #39d52d;
+} 
+
+#target-area {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#target-area h3, p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#target-area .target-container .target-content h3 i {
+    color: #39d52d;
+}    
+
+#target-area  p {
+    padding: 1rem;
+}
+
+#target-pest .target-container .target-content h3 i {
+    color: #39d52d;
+} 
+
+#target-area {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
