@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <title>Chemical Information || Pests</title>
+    <style>
+         #ants .container{
+            display: flex;
+            flex-direction: column;
+         }
+
+         #ants .container .ants-container {
+             display: grid;
+             grid-template-areas: 
+             'h3 h3 h3'
+             'img p p';     
+         }
+
+         @media (max-width: 500px) {
+            #ants .container .ants-container {
+             display: grid;
+             grid-template-areas: 
+             'h3'
+             'img'
+             'p'
+             'h5';     
+            }
+
+            h3 {
+                margin-bottom: 1rem;
+            }
+
+            img {
+                margin: auto;
+            }
+         }
+         
+         img {
+             grid-area: img;
+             margin: auto;
+             border-radius: 15px;
+             width: 400px;
+            
+         }
+
+         h3 {
+             grid-area: h3;
+             font-size: 2rem;
+             text-align: center;
+             color: #010203;
+         }
+
+         p {
+             grid-area: p;
+             margin: 1rem;
+             line-height: 2;
+             font-size: 1.25rem;
+             padding: .5rem;
+         }
+    </style>
+</head>
+<body>
+    <header id="title">
+        <div class="container">
+            <h1> <i class="fas fa-prescription-bottle"></i> Chemical Reference App || Pests</h1>
+        </div>
+    </header>
+    <section id="ants">
+        <div class="container">
+            <div class="ants-container">
+                <img src="./image/spiders/blackwidow.jpg" alt="">
+                <h3>Black Widow</h3>
+                <p>Black widow spiders are known for the females’ unique appearance and tendency to eat their mates. They are considered the most venomous spiders in North America; however, their bite is rarely fatal to humans. Male and female black widows look different. Female black widows are about 1.5 inches long. The males are about half the size of females and are lighter in color, with red or pink spots on their backs. The females are the most distinctive, with shiny black bodies and a red hourglass-shaped marking on the underside of their round abdomen. An important characteristic of this spider is its comb foot. This comb, a row of strong, curved bristles is located on the hind pair of legs and is used to throw silk over captured prey. Black widow spiders eat other spiders and insects that get caught in their webs. The female spider hangs upside down from her web as she waits for her prey. By doing this she shows off her bright markings, which are a warning to predators that she is toxic.</p>
+            </div>
+            <div class="ants-container">
+                <img src="./image/spiders/brownwidow.jpg" alt="">
+                <h3>Brown Widow</h3>
+                <p>The brown widow is slightly smaller and lighter in color than its black cousin; the color can range from tan to dark brown to black, with shades of grey. Like its black cousin, it has a prominent hourglass-shaped design on the underside of the abdomen; the brown widow’s hourglass, however, is usually a vivid orange or a yellowish color. It also has a black-and-white geometric pattern on the top side of its abdomen. As the spider matures its coloring darkens and this pattern becomes less noticeable. Also, they have distinctive stripes on their legs. Brown widows are most often identified by their egg sacs. Their distinctive round and spiked eggs sacs, differentiates them from the black widow egg sacs that are round and smooth in appearance.</p>
+            </div>
+            <div class="ants-container">
+                <img src="./image/spiders/house.jpg" alt="">
+                <h3>Common House Spider</h3>
+                <p>The Common or American House Spider is a nuisance pest and poses no threat to humans. If trapped it may bite. It is aptly named as it is most often found indoors. The adult female of the species is approximately 5-8 mm (3/16 – 5/16 in) in length with a spherical (round) abdomen. Males have elongated abdomens and range from 3.8mm to 4.7mm (1/8 to 3/16th in) in length. These spiders have eight eyes (the 2 lateral pairs almost touch) and their 4th pair of legs has a row of serrated bristles. Both male and female are yellowish brown in color with their abdomens being off white with a few dark stripes meeting at an angle. House spiders randomly select sites for their tangled webs. Insides homes, these spiders find it hard to survive because of low humidity and few insects they consider food. Outside they can be found around windows and in eaves, especially where a light source attracts their prey.</p>
+            </div>
+            <div class="ants-container">
+                <img src="./image/spiders/orb.jpg" alt="">
+                <h3>Orb Weaver Spider</h3>
+                <p>The orb weavers (Araneidae) are one of the three largest spider groups. Their webs consist of radiating strands, like spokes of a wheel, and concentric circles. Most orb weavers build their webs vertically, attaching them to branches, stems, or manmade structures. Webs may be quite large, spanning several feet in width and round in shape which is where this family of spiders gets its name. Orb weaver spiders possess eight eyes, arranged in two rows of four eyes each. Despite this, they have relatively poor eyesight and rely on vibrations within their web to alert them to food. Orb weavers have four to six spinnerets, from which they produce strands of silk. Many orb weavers are brightly colored, and have hairy or spiny legs.</p>
+            </div>
+            <div class="ants-container">
+                <img src="./image/spiders/recluse.jpg" alt="">
+                <h3>Brown Recluse Spider</h3>
+                <p>These typically brown to grayish colored spiders have a body length of about 3/8″ inch (but can grow larger), with very long legs. They have six eyes arranged in pairs (dyads) with one middle pair and two side pairs. These spiders usually have markings on the top side of their cephalothorax, with a black line coming from it that looks like a violin with the neck of the violin pointing to the rear of the spider, resulting in the nicknames of fiddle back spider, brown fiddler, or violin spider</p>
+            </div>
+            <div class="ants-container">
+                <img src="./image/spiders/wolf.jpg" alt="">
+                <h3>Wolf Spider</h3>
+                <p>Wolf spiders are usually, brown, grey, black or tan, with dark markings (usually stripes). Their coloring is an effective camouflage, helping them catch their prey and keep safe from predators. They range from a quarter of an inch to over an inch long, with males usually smaller than females. They have a distinctive eye arrangement, where the front row is composed of four small eyes of roughly the same size arranged in almost a straight line. The back row is arranged in a V-pattern with the point next to the back row. Wolf spiders have excellent night vision, and primarily hunt in the dark. They are easily detected at night due to their eye shine.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
