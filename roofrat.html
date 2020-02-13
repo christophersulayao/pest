@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <title>Chemical Information || Pests</title>
+    <style>
+         #ants .container{
+            display: flex;
+            flex-direction: column;
+         }
+
+         #ants .container .ants-container {
+             display: grid;
+             grid-template-areas:
+             'h3 h3 h3' 
+             'p p img'
+             'idn idn idn'
+             'id idp idp' 
+             'h3f  h3f h3f'
+             'imf imf imf'
+             'pf pf pf'
+             ;    
+         }
+
+         @media (max-width: 500px) {
+            #ants .container .ants-container {
+             display: grid;
+             grid-template-areas: 
+             'h3'
+             'img'
+             'p'
+             'h5'
+             'idn'
+             'id'
+             'idp'
+             'h3f'
+             'imf'
+             'pf'
+             ;     
+            }
+
+            h3 {
+                margin-bottom: 1rem;
+            }
+
+            img {
+                margin: auto;
+            }
+         }
+         
+         img {
+             grid-area: img;
+             margin: auto;
+             border-radius: 15px;
+             border: 1px solid #777;
+             width: 400px;
+            
+         }
+
+         h3 {
+             grid-area: h3;
+             font-size: 2rem;
+             text-align: center;
+             color: #010203;
+         }
+
+         p {
+             grid-area: p;
+             margin: 1rem;
+             line-height: 2;
+             font-size: 1.25rem;
+             padding: .5rem;
+         }
+
+         img.identification {
+             border: 1px solid #777;
+             grid-area: id;
+         }
+
+         p.idp {
+             grid-area: idp;
+         }
+
+         h3.id {
+             grid-area: idn;
+         }
+
+         h3.feces {
+             margin-bottom: 2rem;
+             grid-area: h3f;
+         }
+
+         p.feces {
+             grid-area: pf;
+         }
+
+         img.feces {
+             border: 1px solid #777;
+             grid-area: imf;
+         }
+    </style>
+</head>
+<body>
+    <header id="title">
+        <div class="container">
+            <h1> <i class="fas fa-prescription-bottle"></i> Chemical Reference App || Pests</h1>
+        </div>
+    </header>
+    <section id="ants">
+        <div class="container">
+            <div class="ants-container">
+                <img src="./image/rodents/roofrat.jpg" alt="">
+                <h3>Roof Rats</h3>
+                <p>
+                    The Roof rat also called gray-bellied rat, white-bellied rat, Alexandrine rat, black rat and ship rat.
+
+                    Its origins go to the tree forests of Southeast Asia and are adept for climbing vines, wires, and narrow ledges.
+                    
+                    They are located in the coastal areas of the USA since they do not adapt well to cooler temperatures. It is a more skittish rat than the Norway rat, being sensitive to any new change in the environment.
+                    
+                    They are common rodents in attics if found inside. Many times, you may hear them in the walls or attic area.
+                </p>
+                <h3 class="id">Identification</h3>
+                <img src="./image/rodents/identification.jpg" alt="" class="identification">
+                <p class="idp">
+                    Roof rats have pointed noses and large ears and are often mistaken for House Mice. 
+
+                    The head and feet of adult house mice are proportionally smaller than their bodies, while young rats have larger heads and feet in comparison to their bodies.
+                </p>
+                <h3 class="feces">Feces Identification</h3>
+                <img src="./image/rodents/feces.jpg" alt="" class="feces">
+                <p class="feces">
+                    The Roof Rat Feces (droppings ) are spindle shaped and reach about 1/2 inch in size.The Norway Rat's droppings have a capsule shape.
+
+                    Roof rats will also make tunnels through insulation and will leave chew marks (wood, pipes).
+
+                    The tail markings and hind feet markings of the Norway Rat and of the Roof Rat are hard to differentiate between each other.
+
+                    Runways for Roof Rats may be difficult to determine; look for their feces.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
