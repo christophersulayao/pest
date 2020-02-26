@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <title>Chemical Information || Pests</title>
+    <style>
+         #german .container {
+             display: grid;
+             grid-template-areas: 
+             'h1ger h1ger h1ger'
+             'imgger pger pger'
+             'h3ins h3ins h3ins'
+             'imgins imgins imgins'
+             'pins pins pins'
+             'h3san h3san h3san'
+             'psan psan psan'
+             ;
+             justify-items: center;
+             align-items: center;
+         }
+
+         h1.german {
+             grid-area: h1ger;
+             margin: 1rem;
+         }
+
+         img.german {
+             margin: 1rem;
+             grid-area: imgger;
+         }
+
+         p.german {
+             grid-area: pger;
+             padding: 1rem;
+         }
+
+         h3.inspection {
+             justify-self: center;
+             grid-area: h3ins;
+             margin: 1rem;
+         }
+
+         img.inspection {
+             justify-items: center;
+             align-items: center;
+             margin: 1rem;
+             grid-area: imgins;
+         }
+
+         p.inspection {
+             grid-area: pins;
+             padding: 1rem;
+         }
+
+         h3.sanitation {
+             grid-area: h3san;
+         }
+
+        ul {
+             grid-area: psan;
+         }
+
+    </style>
+</head>
+<body>
+    <header id="title">
+        <div class="container">
+            <h1> <i class="fas fa-prescription-bottle"></i> Chemical Reference App || Pests</h1>
+        </div>
+    </header>
+    <section id="german">
+        <div class="container">
+            <h1 class="german">German Roaches</h1>
+            <img src="./image/roach/germanmultiple.jpg" alt="" class="german">
+            <p class="german">
+                The German cockroach is one of the most common roaches found in apartment houses, restaurants, and hotels. German cockroaches (eggs included), are brought inside or hitchhike on man's belongings, luggage, boxes or packages. A large German roach population will produce a foul odor. These roaches prefer moisture, food, and warmth. <span>Sanitation</span> measures are critical in controlling German roaches.
+            </p>
+            <h3 class="inspection">Inspection</h3>
+            <img src="./image/roach/feces.jpg" alt="" class="roachfeces">
+            <p class="inspection">
+                When inspecting for German cockroaches, thoroughness is very important. It is important to place the baits and IGR's or insecticides as close to their runways and harborages as possible.
+                Their excrement looks like black pepper.
+            </p>
+            <h3 class="sanitation">Sanitation Procedures</h3>
+            <ul>
+                <li>1. Remove indoor trash or keep them emptied.</li>
+                <li>2. Keep trash dumpsters clean.</li>
+                <li>3. Make sure food is not left in sink stainers and frequently run the garbage disposal.</li>
+                <li>4. Food containers should be sealed.</li>
+                <li>5. Keep dishes clean, no residue of food remaining.</li>
+                <li>6. All kitchen appliances (microwaves, toasters, ovens, refrigerators and stoves) should be maintained in a clean condition so that it is food free and grease free.</li>
+                <li>7. All pet food needs to be picked up.</li>
+                <li>8. No food left out in the open.</li>
+                <li>9. Sweeping or vacuuming of any food particles or crumbs.</li>
+                <li>10. Get rid of empty soft drink bottles, paper bags and cardboard boxes.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
